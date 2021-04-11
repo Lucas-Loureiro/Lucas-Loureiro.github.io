@@ -41,8 +41,19 @@ a {
     
 }
 
-a.oi::before{
-    content: "";
+h2{
+    font-family:'Fredoka One', cursive;
+    font-size: 40px;
+    color: #FFF;
+}
+
+h3{
+    font-family:'Fredoka One', cursive;
+    font-size: 30px;
+    color: #FFF;
+}
+
+a.menu::before{
     background-color: white;
     width: 10px;
     height: 10px;
@@ -52,26 +63,22 @@ a.oi::before{
 }
 
 
-#button {
+.button_header {
     display: inline-block;
     background-color: white;
     padding: 18px 20px;
     border: 3px solid black;
     color: black;
-    /*box-shadow: 5px 5px 0 black;*/
     margin-right: 0;
     border-radius: 40px;
     transition: transform 100ms linear;
 }
 
-#button:hover{
+.button_header:hover{
     transform: scale(1.08);
     background-color:black;
     color: white;
-    border: 3px solid white;
- 
-    
-    
+    border: 3px solid white;    
 }
 a:hover{   
     font-weight: bold;
@@ -81,7 +88,26 @@ h1:hover{
     transform: rotateY(360deg);
     
 }
-
-
+#box{
+    width: 627px;
+    height: 184px;
+    background-color: #FFF;
+}
+.button_body{
+    display: inline-block;
+    background-color: white;
+    padding: 18px 20px;
+    border: 3px solid black;
+    color: black;
+    margin-right: 0;
+    border-radius: 40px;
+    transition: transform 100ms linear;
+}
+.button_body:hover{
+    transform: scale(1.08);
+    background-color:black;
+    color: white;
+    border: 3px solid white;    
+}
 
 
