@@ -41,11 +41,7 @@ a {
     
 }
 
-h2{
-    font-family:'Fredoka One', cursive;
-    font-size: 40px;
-    color: #FFF;
-}
+
 
 h3{
     font-family:'Fredoka One', cursive;
@@ -91,7 +87,9 @@ h1:hover{
 #box{
     width: 627px;
     height: 184px;
-    background-color: #FFF;
+    background-color: #3A4042;
+    box-shadow: 5px 5px 0 #FFF;
+    margin-left: 91px;
 }
 .button_body{
     display: inline-block;
