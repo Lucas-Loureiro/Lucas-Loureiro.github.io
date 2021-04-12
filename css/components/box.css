@@ -1,0 +1,14 @@
+#box{
+    display: inline-block;
+    border: 1px solid #FFF;
+    padding: 42px 44px;
+    text-align: center;
+    margin-top: 116px;
+    margin-left: 91px;
+    /*rgb(138, 52, 2)*/
+    
+}
+
+#box h1{
+    margin-bottom: 28px;
+}

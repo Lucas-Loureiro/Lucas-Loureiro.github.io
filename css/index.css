@@ -5,7 +5,6 @@ header {
     justify-content: space-between;
     background-color: black;
     align-items: center;
-    border-bottom: 1px solid white;
     padding: 10px 20px;
     color:#FFF;
     font-weight: bold;        
@@ -16,12 +15,13 @@ body{
 }
 
 
-h1{
+#logo{
     display: flex;
     font-family:'Fredoka One', sans-serif;
     border: 2px solid #FFF;
     padding: 10px 10px;
     transition: transform 1s linear;
+    font-size: 30px;
 }
 
 nav {
@@ -72,17 +72,11 @@ a:hover{
     font-weight: bold;
 }
     
-h1:hover{
+#logo:hover{
     transform: rotateY(360deg);
     
 }
-#box{
-    width: 627px;
-    height: 184px;
-    background-color: #3A4042;
-    box-shadow: 5px 5px 0 #FFF;
-    margin-left: 91px;
-}
+
 .button_body{
     display: inline-block;
     background-color: white;
